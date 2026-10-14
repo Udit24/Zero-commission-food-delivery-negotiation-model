@@ -20,4 +20,6 @@ def negotiate(resturant_min,customer_max,rider_fare_pay):
 
 			result1=f1.result()
 			result2=f2.result()
-		if resturant_acceptable+customer_acceptable
+		if resturant_acceptable+customer_acceptable==100:
+			break
+		
